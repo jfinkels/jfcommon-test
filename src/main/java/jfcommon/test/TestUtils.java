@@ -1,5 +1,5 @@
 /**
- * TreeUtils.java
+ * TestUtils.java
  * 
  * Copyright 2010 Jeffrey Finkelstein
  * 
@@ -30,7 +30,7 @@ package jfcommon.test;
 public class TestUtils {
   /**
    * Prints the stack trace of the specified Exception to stderr and calls
-   * {@link org.junit.Assert.fail(String)} in order to fail the test in which
+   * {@link org.junit.Assert#fail(String)} in order to fail the test in which
    * this method is called.
    * 
    * @param exception
