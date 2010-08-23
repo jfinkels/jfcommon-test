@@ -419,8 +419,8 @@
     <downloadUrl>http://www.cs.tufts.edu/~jfinke02/jfcommon/test/</downloadUrl>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>jfcommon.repo</id>
-      <name>jfcommon repository</name>
+      <id>jmona.repo</id>
+      <name>jmona repository</name>
       <url>scp://linux.cs.tufts.edu/h/jfinke02/public_html/repo</url>
       <layout>default</layout>
     </repository>
