@@ -402,8 +402,9 @@
   <!-- </mailingLists> -->
 
   <scm>
-    <connection>scm:git:git+ssh://git@github.com:jfinkels/jfcommon-test.git</connection>
-    <url>http://github.com/jfinkels/jfcommon-test</url>
+    <connection>scm:git:git@github.com:jfinkels/jfcommon-test.git</connection>
+    <developerConnection>scm:git:git@github.com:jfinkels/jfcommon-test.git</developerConnection>
+    <url>scm:git:git@github.com:jfinkels/jfcommon-test</url>
   </scm>
 
   <repositories>
