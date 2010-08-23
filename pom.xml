@@ -129,7 +129,6 @@
             <archive>
               <manifest>
                 <addClasspath>true</addClasspath>
-                <mainClass>${mainClass}</mainClass>
               </manifest>
             </archive>
           </configuration>
@@ -148,7 +147,7 @@
           <artifactId>maven-javadoc-plugin</artifactId>
           <version>${version.plugin.javadoc}</version>
           <configuration>
-            <attach>false</attach>
+            <attach>true</attach>
             <detectLinks>true</detectLinks>
           </configuration>
           <executions> <!-- execute javadoc:jar and :test-jar on "mvn package" -->
@@ -210,7 +209,7 @@
           <artifactId>maven-source-plugin</artifactId>
           <version>${version.plugin.source}</version>
           <configuration>
-            <attach>false</attach>
+            <attach>true</attach>
           </configuration>
           <executions> <!-- execute source:jar and :test-jar on "mvn package" -->
             <execution>
