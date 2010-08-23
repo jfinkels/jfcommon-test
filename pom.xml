@@ -147,7 +147,6 @@
           <artifactId>maven-javadoc-plugin</artifactId>
           <version>${version.plugin.javadoc}</version>
           <configuration>
-            <attach>true</attach>
             <detectLinks>true</detectLinks>
           </configuration>
           <executions> <!-- execute javadoc:jar and :test-jar on "mvn package" -->
@@ -208,9 +207,6 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-source-plugin</artifactId>
           <version>${version.plugin.source}</version>
-          <configuration>
-            <attach>true</attach>
-          </configuration>
           <executions> <!-- execute source:jar and :test-jar on "mvn package" -->
             <execution>
               <phase>package</phase>
