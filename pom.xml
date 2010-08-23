@@ -149,6 +149,7 @@
           <version>${version.plugin.javadoc}</version>
           <configuration>
             <attach>false</attach>
+            <detectLinks>true</detectLinks>
           </configuration>
           <executions> <!-- execute javadoc:jar and :test-jar on "mvn package" -->
             <execution>
